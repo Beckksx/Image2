@@ -1,4 +1,4 @@
-import Image from "next/image";
+//import Image from "next/image";
 import { PrimeiroComponente } from "./components/PrimeiroComponente";
 
 export default function Home() {
@@ -6,7 +6,8 @@ export default function Home() {
     <div>
       <main>
         <h1>Welcome babys</h1>
-        <PrimeiroComponente/>
+         <PrimeiroComponente mensagem="Hello world" mensagemBotao={""}/>
+           <PrimeiroComponente mensagemBotao="Clicou bb" mensagem={""}/>
       </main>
     </div>
   );
