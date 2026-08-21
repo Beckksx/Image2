@@ -1,4 +1,3 @@
-//import Image from "next/image";
 import { PrimeiroComponente } from "./components/PrimeiroComponente";
 
 export default function Home() {
@@ -12,3 +11,13 @@ export default function Home() {
     </div>
   );
 }
+
+/* export default function Home(){
+  <div>
+  <main>
+    <h1>Welcome to Next.js!</h1>
+    <PrimeiroComponente mensagem="Olá mundo!" mensagemBotao={""}/>
+    <PrimeiroComponente mensagemBotao="Segundo botão clicadoooo!!" mensagem={""} />
+  </main>
+  </div>
+} */
