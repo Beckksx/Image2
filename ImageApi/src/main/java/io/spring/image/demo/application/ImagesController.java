@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/images")
 @Slf4j
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ImagesController {
 
     private final ImageService service;
@@ -39,7 +40,7 @@ public class ImagesController {
             @RequestParam("file") MultipartFile file,
             @RequestParam("name") String name,
             @RequestParam("tags") List<String> tags
-    ) throws IOException {
+            ) throws IOException {
         log.info("Recebendo tentativa de upload do arquivo: {}", file.getOriginalFilename());
 //            log.info("Content Type:{} ", file.getContentType());
 //            log.info("Media Type:{} ", MediaType.valueOf(file.getContentType()));
