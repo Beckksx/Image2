@@ -6,10 +6,10 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-purple-950 via-purple-900 to-black text-white flex items-center justify-center">
       <main className="flex flex-col items-center gap-6 text-center px-6">
         <h1 className="text-9xl font-extrabold tracking-tight text-[#39ff14] drop-shadow-[0_0_12px_rgba(57,255,20,0.7)]">
-          Welcome
+          Bem vind@
         </h1>
 
-        <PrimeiroComponente mensagem="Hello world" mensagemBotao="Clicou!" />
+     {/*    <PrimeiroComponente mensagem="Hello world" mensagemBotao="Clicou!" /> */}
 
         <Link
           href="/galeria"
